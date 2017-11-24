@@ -1,0 +1,84 @@
+.container{
+	padding: 0px;
+}
+.nav-link{
+	text-align: center;
+	white-space:nowrap;
+}
+.header-nav{
+	height: 60px;
+	width: 100%;
+	margin: 0px;
+}
+.header-nav span{
+	font-size: 0.233em;
+	
+}
+.header-loge{
+	line-height: 60px;
+	height: 60px;
+	text-align: center;
+}
+.navbar{
+    height: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.nav-item .active{
+	background-color: #1094e0;
+	color: #ffffff;
+}
+.nav-link{
+	color: #666666;
+}
+.nav-item a:hover{
+	background-color: #1094e0;
+	color: #ffffff;
+}
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+.AboutUs-Card{
+	padding: 3.125em;
+	border: 0;
+	background-color: #ffffff;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	box-shadow: 0px 5px 4.7px 0.3px rgba(153, 153, 153, 0.5), 0px -5px 4.7px 0.3px rgba(153, 153, 153, 0.1);
+}
+.card-header{
+	border: 0;
+	background-color: #ffffff;
+	text-align: center;
+	margin-bottom: 1.125em;
+}
+.AboutUs-Card-Title{
+	font-size: 1.5em;
+    color: #333333;
+    font-family: "微软雅黑";
+}
+.AboutUs-Card-Suitle{
+	font-size: 0.875em;
+    color: #333333;
+}
+.card-body button{
+	position: absolute;
+	width: 8.375em;
+    height: 2em;
+    font-family: "微软雅黑";
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    background: #1094e0;
+    border: none;
+    bottom: 0px;
+}
+.card-body p{
+	font-family: "Microsoft YaHei";
+    color: #666666;
+    line-height: 1.5em;
+    font-size: 1em;
+}
