@@ -18,76 +18,77 @@
   </head>
 <body>
 
-<div class="container">
-  <div class="row header-nav">
-    <div class="col-sm-3 header-loge">
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-sm header-nav">
+    <a class="navbar-brand" href="#">
       <img src="img/logo.png" class="img-fluid">
-    </div>
-    <div class="col-sm-9">
-        <nav class="navbar navbar-expand-sm">
-          <ul class="navbar-nav">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right collapsed cellphone-btn " type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    首页
+    </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active">
                 <span>首页</span>
                 <br/>
                 <span>Home</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="AboutUs.html">
                 <span>关于我们</span>
                 <br/>
                 <span>About Us</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="工业自动化.html">
                 <span>工业自动化</span>
                 <br/>
                 <span>Industry Automation</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="MES.html">
                 <span>MES</span>
                 <br/>
                 <span>MES</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="设备管理.html">
                 <span>设备管理</span>
                 <br/>
                 <span>MRO</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="EMS.html">
                 <span>能源管理</span>
                 <br/>
                 <span>EMS</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="工业云平台.html">
                 <span>工业云平台</span>
                 <br/>
                 <span>Industry Cloud Platform</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="News.html">
                 <span>新闻动态</span>
                 <br/>
                 <span>News</span>
               </a>
             </li>
           </ul>
-        </nav>
-    </div>
-  </div>
+      </div>
+  </nav>
   <div class="banner img-fluid">
-    <img src="img/横幅.png">
+    <img src="img/横幅.png" class="img-fluid">
   </div>
   <div class="card AboutUs-Card">
     <div class="card-header">
@@ -120,7 +121,7 @@
     <div class="card-body">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="工业自动化.html">
             <img src="img/工业自动化.png" class="img-fluid">
             <div class="Solution-Card-Words">
               <p class="chinese">工业自动化</p>
@@ -129,7 +130,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="MES.html">
             <img src="img/MES.png" class="img-fluid">
             <div class="Solution-Card-Words">
               <p class="chinese">MES</p>
@@ -138,7 +139,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="设备管理.html">
             <img src="img/设备管理.png" class="img-fluid">
             <div class="Solution-Card-Words">
               <p class="chinese">设备管理</p>
@@ -149,7 +150,7 @@
       </ul>
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="EMS.html">
             <img src="img/能源管理.png" class="img-fluid">
             <div class="Solution-Card-Words">
               <p class="chinese">能源管理</p>
@@ -158,7 +159,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="工业云平台.html">
             <img src="img/工业云平台.png" class="img-fluid">
             <div class="Solution-Card-Words">
               <p class="chinese">工业云平台</p>
@@ -180,7 +181,7 @@
         </div>
       </div>
       <div class="card-body row News-list">
-        <div class="col-sm-6">
+        <div class="col">
           <div id="demo" class="carousel slide" data-ride="carousel">
             <!-- 轮播图片 -->
             <div class="carousel-inner">
@@ -196,7 +197,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
           <ul class="list-group" >
             <li class="list-group-item">
               <a><span>喜讯！广州盛原成入选广东省工业互联网产业生态供给资源池！</span></a>

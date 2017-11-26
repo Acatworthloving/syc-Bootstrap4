@@ -1,30 +1,53 @@
-.container{
-	padding: 0px;
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin:0;
 }
 .header-nav .nav-link{
 	text-align: center;
 	white-space:nowrap;
-	color: #666666;
+	z-index: 999;
+}
+.collapse.show {
+    display: block;
+    z-index: 999;
+    border: 0.0625em solid #f0f0f0;
+}
+.header-nav ul{
+	background-color: #fff;
 }
 .header-nav{
-	height: 60px;
+	height: 3.75em;
 	width: 100%;
-	margin: 0px;
+	margin: 0;
+}
+.cellphone-btn{
+	background-color: #1094e0;
+	color: #ffffff;
+	font-size: 0.233em;
+	padding: 1.5em;
+}
+.navbar-brand{
+	width: 30%;
+	text-align: center;
 }
 .header-nav span{
 	font-size: 0.233em;
 }
 .header-loge{
-	line-height: 60px;
-	height: 60px;
+	line-height:3.75em;
+	height: 3.75em;
 	text-align: center;
 }
 .header-nav .navbar{
-    height: 60px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    height: 3.75em;
+    padding-top: 0;
+    padding-bottom: 0;
 }
-.nav-item .active{
+.navbar li a{
+	color: #666666;
+}
+.navbar li .active{
 	background-color: #1094e0;
 	color: #ffffff;
 }
@@ -51,7 +74,7 @@
     text-align: center;
     background: #1094e0;
     border: none;
-    bottom: 0px;
+    bottom: 0;
 }
 .card-body p{
 	font-family: "Microsoft YaHei";
@@ -68,8 +91,8 @@
 .card-header i{
 	display: inline-block;
     height: 0;
-    width: 32px;
-    border: 1px solid #333333;
+    width: 2em;
+    border: 0.0625em solid #333333;
 }
 .Modular-Title{
 	font-size: 1.5em;
@@ -84,12 +107,16 @@
 	font-size: 0.875em;
     color: #333333;
 }
+.banner{
+	margin-top: 0.1em;
+}
 .AboutUs-Card{
 	padding: 3.125em;
 	background-color: #ffffff;
 	margin: 5em auto;
-	width: 62.5em;
-	box-shadow: 0px 5px 4.7px 0.3px rgba(153, 153, 153, 0.5), 0px -5px 4.7px 0.3px rgba(153, 153, 153, 0.1);
+	/*width: 62.5em;*/
+	width: 80%;
+	box-shadow: 0  0.3125em 0.29375em 0.01875em rgba(153, 153, 153, 0.5), 0  -0.3125em 0.29375em 0.01875em rgba(153, 153, 153, 0.1);
 }
 .Solution-Card{
 	margin-bottom: 3.125em;
@@ -97,12 +124,12 @@
 .Solution-Card .nav-link{
 	padding: 0;
 	margin: 0.625em;
-	box-shadow: 0px 5px 4.7px 0.3px rgba(153, 153, 153, 0.5), 0px -5px 4.7px 0.3px rgba(153, 153, 153, 0.1);
+	box-shadow: 0  0.3125em 0.29375em 0.01875em rgba(153, 153, 153, 0.5), 0  -0.3125em 0.29375em 0.01875em rgba(153, 153, 153, 0.1);
 }
 .Solution-Card ul{
 	width: 100%;
 	text-align: center;
-	display: block;
+	display: block; 
 }
 .Solution-Card ul li{
 	display: inline-block;
@@ -133,10 +160,10 @@
 }
 .News-Card-Center{
 	margin: 0 auto;
-	width: 62.5em;
-	width: 62.5em;
+	/*width: 62.5em;*/
+	width: 80%;
 	padding-top: 2.375em;
-    padding-bottom: 50px;
+    padding-bottom: 3.125em;
 }
 .list-group-item{
 	background:none;
@@ -144,7 +171,7 @@
 }
 .News-list li{
 	padding: 0.575em 0 0.3em 0;
-    border-bottom: 1px dotted #b4b4b4;
+    border-bottom: 0.0625em dotted #b4b4b4;
     color: #666666;
     height: auto;
 }
@@ -176,5 +203,8 @@
     line-height: 3.125em;
     font-size: 0.75em;
     color: #ffffff;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
 }
 
